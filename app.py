@@ -1,13 +1,6 @@
-# Gender -> 1 Female 0 Male
-# Churn -> 1 Yes 0 No
-# Scaler is exported as scaler.pkl
-# Model is exported as model.pkl
-# Order of X --> 'Age', 'Gender', 'Tensure', 'MonthlyCharges'
-
 import streamlit as st
 import numpy as np
 import joblib
-
 scaler = joblib.load('scaler.pkl')
 model = joblib.load('model.pkl')
 
