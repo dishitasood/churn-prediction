@@ -18,7 +18,6 @@ Customer churn is a critical problem in subscription-based services. The goal of
 
 ## 🧪 Exploratory Data Analysis (EDA)
 
-Performed in `EDA.ipynb`:
 - Handled missing values and data types
 - Visualized distribution of churn across features
 - Explored correlation and feature importance
